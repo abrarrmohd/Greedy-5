@@ -4,7 +4,7 @@ class Solution:
         n = len(p)
 
         dp = [[False for i in range(n + 1)] for j in range(m + 1)]
-
+        #bottom up solution
         for i in range(m + 1):
             for j in range(n + 1):
                 if i == 0 and j == 0:
